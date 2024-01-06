@@ -1,0 +1,21 @@
+untrusted comment: verify with /etc/ports/raspberrypi5-arm64.pub
+RWSHgCHzkLZhngHfrd25QlJQGygWDjKcrqmFi0Y34rsBySYtvrsDE3ECmMGcvVruC+bWbg6qnzN/WPUHY4ayQiSTvJDWoeZsugg=
+SHA256 (Pkgfile) = ce1b4ef30e5b999aaf70b0a9371036bdbcfdb29471d90f8a2b94a423a4152213
+SHA256 (.footprint) = 9d94bf8555329fac8fec974021066692209fc10d069879caa95833c2f7882b39
+SHA256 (ports-1.6.tar.gz) = 8b2ba48e7440f4a71fa1c9c480a1212ce87c623e1d33121eb660829ba294ca94
+SHA256 (core.pub) = 5a08b7f21fb1768b9e639da0b768edb536de0590b75e663dab6d185617613791
+SHA256 (opt.pub) = 4711f488546c38cdec792c1f16b3bf7c4db0c7dc0c3cdab0ecdd85e2c7247ae5
+SHA256 (xorg.pub) = 5db27d455f658ea8a6c7ae9aac601d66e74cedff5dd497910fd1ffead08e5237
+SHA256 (contrib.pub) = cae797c624547b5ffb643f4cdf60d83a7cc28081f5929b882d48085085d76190
+SHA256 (core.rsync) = a241801eaa34ea78f7bb362574fb4b14ea272518894f8a27e95f6a3c93464550
+SHA256 (opt.rsync) = 8538d1ced606856552e8a6989a3880b958ac5e0849d14aba199f3f89bd871845
+SHA256 (xorg.rsync) = 3dd6884b2b628e8d9ae575b95fb7e4bad0f9ddd4ee4088d2486f846a407a0278
+SHA256 (contrib.rsync.inactive) = 55621db4b59fb45ecc9525c72d59576043bacbd9261d9ef031dcd1a3fda00957
+SHA256 (raspberrypi5-arm64.httpup) = ce7257f0d5112af9fbcb1cbda633356176f64c13ee83610c100ea880daff2a8b
+SHA256 (raspberrypi5-arm64.pub) = 5c1333dd57ab59fc5a3fa7d6a7c25b9a7f5687d43a891529bf5a48a8d8586078
+SHA256 (core-arm64.httpup) = d8c5caec76da7c6d181a3fee0bf188b3c3743918b5d1cfb4412ec05e3f1fa027
+SHA256 (core-arm64.pub) = f0d3e788325112cc541116e261adbe2c14d0bbb921a66040badf0d9e030e0957
+SHA256 (opt-arm64.httpup) = ecc098e677fca21f7439169ecba546a38ebad6d407fef1e311fffc2a17e53c94
+SHA256 (opt-arm64.pub) = c079759a335314f26bc027856981a00f1251b3e6d782ae7317396e3908d9a9ee
+SHA256 (xorg-arm64.httpup) = efb4d165e6fae7949899cb290618fea176acd4377122dc1adf814502e7a0dbb3
+SHA256 (xorg-arm64.pub) = 1f54f0323e0f32fae1d9b6ef0e9f09a034ce4e39ebb36db59bcb5c2829ac62f5
