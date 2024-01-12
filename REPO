@@ -1,5 +1,6 @@
 d:prt-get
 d:pkgutils
+d:linux-rpi5
 d:ports
 f:fba3b19b1f9ef72c722360b8cfd73c3d:prt-get/Pkgfile
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
@@ -11,6 +12,9 @@ f:7d131be9964a89356fb01994efeec236:pkgutils/Pkgfile
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:fb940fa36cd5de2903f39de05ba1f53c:pkgutils/.signature
 f:5e268627e4a413996db1c3dccadd4808:pkgutils/pkgmk.conf
+f:352145af3fe327bfe2493a2672bfe6f9:linux-rpi5/dotconfig
+f:fa24f4c9c99441076db18d4d413a3d5b:linux-rpi5/Pkgfile
+f:11e35c6071d3b6244e99ff7e1307c102:linux-rpi5/.footprint
 f:9d65d950bc9ccaba3f9b4ffbe1d90f0a:raspberrypi5-arm64.httpup
 f:1ebbd3e34237af26da5dc08a4e440464:LICENSE
 f:246bdcd2c5d85192fc45e320174fb121:ports/opt-arm64.pub
