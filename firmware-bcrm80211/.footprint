@@ -1,0 +1,142 @@
+drwxr-xr-x	root/root	lib/
+drwxr-xr-x	root/root	lib/firmware/
+drwxr-xr-x	root/root	lib/firmware/brcm/
+-rw-r--r--	root/root	lib/firmware/brcm/bcm43xx-0.fw
+-rw-r--r--	root/root	lib/firmware/brcm/bcm43xx_hdr-0.fw
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43012-sdio.bin -> ../cypress/cyfmac43012-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43012-sdio.clm_blob -> ../cypress/cyfmac43012-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43143-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43143.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43236b.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43241b0-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43241b4-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43241b5-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43242a.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4329-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4330-sdio.Prowise-PT301.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4330-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4334-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43340-sdio.bin -> ../cypress/cyfmac43340-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43340-sdio.meegopad-t08.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43340-sdio.predia-basic.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4335-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43362-sdio.bin -> ../cypress/cyfmac43362-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43362-sdio.lemaker,bananapro.txt -> brcmfmac43362-sdio.cubietech,cubietruck.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4339-sdio.bin -> ../cypress/cyfmac4339-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43430-sdio.AP6212.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43430-sdio.MUR1DX.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.bin -> ../cypress/cyfmac43430-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.clm_blob -> ../cypress/cyfmac43430-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.bin -> ../cypress/cyfmac43430-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.clm_blob -> ../cypress/cyfmac43430-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt -> brcmfmac43430-sdio.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-2-w.bin -> brcmfmac43436s-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-2-w.txt -> brcmfmac43436s-sdio.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.bin -> ../cypress/cyfmac43430-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.clm_blob -> ../cypress/cyfmac43430-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt -> brcmfmac43430-sdio.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt -> brcmfmac43430-sdio.AP6212.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43430-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43430a0-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43430a0-sdio.ilife-S806.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430b0-sdio.raspberrypi,model-zero-2-w.bin -> brcmfmac43436-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430b0-sdio.raspberrypi,model-zero-2-w.clm_blob -> brcmfmac43436-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43430b0-sdio.raspberrypi,model-zero-2-w.txt -> brcmfmac43436-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43436-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43436-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43436-sdio.raspberrypi,model-zero-2-w.bin -> brcmfmac43436-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43436-sdio.raspberrypi,model-zero-2-w.clm_blob -> brcmfmac43436-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43436-sdio.raspberrypi,model-zero-2-w.txt -> brcmfmac43436-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43436-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43436s-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43436s-sdio.raspberrypi,model-zero-2-w.bin -> brcmfmac43436s-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43436s-sdio.raspberrypi,model-zero-2-w.txt -> brcmfmac43436s-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43436s-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.bin -> ../cypress/cyfmac43455-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.bin -> ../cypress/cyfmac43455-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcmfmac43455-sdio.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.bin -> ../cypress/cyfmac43455-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt -> brcmfmac43455-sdio.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-compute-module.bin -> ../cypress/cyfmac43455-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-compute-module.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-compute-module.txt -> brcmfmac43455-sdio.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.bin -> ../cypress/cyfmac43455-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt -> brcmfmac43455-sdio.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.bin -> ../cypress/cyfmac43455-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.txt -> brcmfmac43455-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43455-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43456-sdio.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43456-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43456-sdio.raspberrypi,4-compute-module.bin -> brcmfmac43456-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43456-sdio.raspberrypi,4-compute-module.clm_blob -> brcmfmac43456-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43456-sdio.raspberrypi,4-compute-module.txt -> brcmfmac43456-sdio.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43456-sdio.raspberrypi,400.bin -> brcmfmac43456-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43456-sdio.raspberrypi,400.clm_blob -> brcmfmac43456-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43456-sdio.raspberrypi,400.txt -> brcmfmac43456-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43456-sdio.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4350-pcie.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4350c2-pcie.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4354-sdio.bin -> ../cypress/cyfmac4354-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4354-sdio.clm_blob -> ../cypress/cyfmac4354-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4356-pcie.bin -> ../cypress/cyfmac4356-pcie.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4356-pcie.clm_blob -> ../cypress/cyfmac4356-pcie.clm_blob
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4356-pcie.gpd-win-pocket.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4356-sdio.AP6356S.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4356-sdio.bin -> ../cypress/cyfmac4356-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4356-sdio.clm_blob -> ../cypress/cyfmac4356-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4356-sdio.firefly,firefly-rk3399.txt -> brcmfmac4356-sdio.AP6356S.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4356-sdio.khadas,vim2.txt -> brcmfmac4356-sdio.AP6356S.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4356-sdio.vamrs,rock960.txt -> brcmfmac4356-sdio.AP6356S.txt
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43569.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43570-pcie.bin -> ../cypress/cyfmac43570-pcie.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43570-pcie.clm_blob -> ../cypress/cyfmac43570-pcie.clm_blob
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4358-pcie.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43602-pcie.ap.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43602-pcie.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4366b-pcie.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4366c-pcie.bin
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4371-pcie.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4373-sdio.bin -> ../cypress/cyfmac4373-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac4373-sdio.clm_blob -> ../cypress/cyfmac4373-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/brcm/brcmfmac4373.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac54591-pcie.bin -> ../cypress/cyfmac54591-pcie.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac54591-pcie.clm_blob -> ../cypress/cyfmac54591-pcie.clm_blob
+drwxr-xr-x	root/root	lib/firmware/cypress/
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43012-sdio.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43012-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43340-sdio.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43362-sdio.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac4339-sdio.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43430-sdio.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43430-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43455-sdio-minimal.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43455-sdio-standard.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43455-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac4354-sdio.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac4354-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac4356-pcie.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac4356-pcie.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac4356-sdio.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac4356-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43570-pcie.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43570-pcie.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac4373-sdio.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac4373-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac54591-pcie.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac54591-pcie.clm_blob
