@@ -1,0 +1,10 @@
+#!/bin/sh
+
+version=6.6.13
+
+if [ $(command -v dracut) ]; then
+	echo "dracut: generating initramfs for kernel $kver..."
+	dracut --force --kver ${version}-v8-16k /boot/initramfs.img
+fi
+
+depmod ${version}-v8-16k
