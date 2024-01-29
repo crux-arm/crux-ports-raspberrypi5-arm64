@@ -1,0 +1,25 @@
+# Description: Proprietary Broadcom Bluetooth Firmware for RPI devices
+# URL: https://raspberrypi.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on:
+
+name=bluez-firmware
+version=1.2-9
+release=2
+source=(https://archive.raspberrypi.org/debian/pool/main/b/$name/${name}_${version}+rpt${release}_all.deb BCM-LEGAL.txt)
+
+build() {
+
+ar x ${name}_${version}+rpt${release}_all.deb data.tar.xz
+tar xvf data.tar.xz
+rm data.tar.xz
+
+cd $SRC
+rm *.deb
+cp -r . $PKG
+
+rm $PKG/BCM-LEGAL.txt
+rm -r $PKG/usr/*
+rmdir $PKG/usr
+
+}
