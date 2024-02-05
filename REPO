@@ -3,6 +3,7 @@ d:linux-raspberrypi5-stable
 d:bluez-firmware
 d:ports
 d:pkgutils
+d:xorg
 d:prt-get
 d:linux-raspberrypi5-lts
 f:e629c917516bb925de783cecf4d05607:firmware-bcrm80211/.footprint
@@ -44,6 +45,10 @@ f:7d131be9964a89356fb01994efeec236:pkgutils/Pkgfile
 f:5e268627e4a413996db1c3dccadd4808:pkgutils/pkgmk.conf
 f:d32239bcb673463ab874e80d47fae504:COPYING
 f:1ebbd3e34237af26da5dc08a4e440464:LICENSE
+f:cb341af4428c3087f2f199ad6d1bfe7c:xorg/99-vc4.conf
+f:0409366834f08e177397976f21465989:xorg/.footprint
+f:c8f27fa6ab08dc82821a6035ee29049b:xorg/.md5sum
+f:bdf9c2b1faa77c0e96ad405cc9862242:xorg/Pkgfile
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
 f:f62596053ec1dfa935c9925dacbd407a:prt-get/.signature
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
