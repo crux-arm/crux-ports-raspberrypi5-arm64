@@ -59,12 +59,23 @@ lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43436-sdio.raspberrypi,model-zero
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43436s-sdio.raspberrypi,model-zero-2-w.bin -> brcmfmac43436s-sdio.bin
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43436s-sdio.raspberrypi,model-zero-2-w.txt -> brcmfmac43436s-sdio.txt
 -rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43436s-sdio.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43439-sdio.bin -> ../cypress/cyfmac43439-sdio.bin
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43439-sdio.clm_blob -> ../cypress/cyfmac43439-sdio.clm_blob
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43439-sdio.txt -> ../cypress/cyfmac43439-sdio.txt
 -rw-r--r--	root/root	lib/firmware/brcm/brcmfmac43455-sdio.AW-CM256SM.txt
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.bin -> ../cypress/cyfmac43455-sdio.bin
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinenote-v1.1.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinenote-v1.2.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,quartz64-a.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.0.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.1.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,soquartz-blade.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,soquartz-cm4io.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.pine64,soquartz-model-a.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.bin -> ../cypress/cyfmac43455-sdio.bin
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
 lrwxrwxrwx	root/root	lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcmfmac43455-sdio.txt
@@ -125,6 +136,9 @@ drwxr-xr-x	root/root	lib/firmware/cypress/
 -rw-r--r--	root/root	lib/firmware/cypress/cyfmac4339-sdio.bin
 -rw-r--r--	root/root	lib/firmware/cypress/cyfmac43430-sdio.bin
 -rw-r--r--	root/root	lib/firmware/cypress/cyfmac43430-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43439-sdio.bin
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43439-sdio.clm_blob
+-rw-r--r--	root/root	lib/firmware/cypress/cyfmac43439-sdio.txt
 -rw-r--r--	root/root	lib/firmware/cypress/cyfmac43455-sdio-minimal.bin
 -rw-r--r--	root/root	lib/firmware/cypress/cyfmac43455-sdio-standard.bin
 -rw-r--r--	root/root	lib/firmware/cypress/cyfmac43455-sdio.clm_blob

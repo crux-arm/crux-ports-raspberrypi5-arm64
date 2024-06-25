@@ -4,7 +4,7 @@
 # Depends on:
 
 name=firmware-brcm80211
-version=20230210-5
+version=20230625-2
 release=2
 source=(https://archive.raspberrypi.org/debian/pool/main/f/firmware-nonfree/${name}_${version}+rpt${release}_all.deb)
 
