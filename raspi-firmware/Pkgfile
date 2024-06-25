@@ -1,0 +1,19 @@
+# Description: Firmware for rpi
+# URL: https://raspberrypi.org/
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on:
+
+name=raspi-firmware
+version=1.20240529
+release=1
+source=(http://archive.raspberrypi.org/debian/pool/main/r/$name/${name}_${version}-${release}_all.deb)
+
+build() {
+
+    ar x ${name}_${version}-${release}_all.deb data.tar.xz
+    tar xvf $SRC/data.tar.xz -C $PKG
+    rm -rf $PKG/etc
+    mkdir -p $PKG/boot
+    mv $PKG/usr/lib/raspi-firmware/* $PKG/boot
+    rm -rf $PKG/usr
+}
