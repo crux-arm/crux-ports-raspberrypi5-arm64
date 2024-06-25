@@ -5,7 +5,7 @@
 
 name=bluez-firmware
 version=1.2-9
-release=2
+release=3
 source=(https://archive.raspberrypi.org/debian/pool/main/b/$name/${name}_${version}+rpt${release}_all.deb BCM-LEGAL.txt)
 
 build() {
