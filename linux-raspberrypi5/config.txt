@@ -1,0 +1,96 @@
+# For more configuration options and information see: http://rpf.io/configtxt
+# Additional overlays and parameters are documented in: /boot/overlays/README
+# NB: Some settings may impact device functionality and performance!
+#
+
+# Run in 64-bit mode
+arm_64bit=1
+
+# Allocate amount of GPU video RAM (MB) [min: 16MB]
+#gpu_mem=128
+
+# Set CPU clock speed (MHz) for overclocking, etc.
+#arm_freq=1500
+#arm_freq_min=600
+
+# Load a specific kernel
+kernel=kernel_2712.img
+#kernel=kernel8.img
+
+# Enable optional hardware interfaces
+#dtparam=i2c_arm=on
+#dtparam=i2s=on
+#dtparam=spi=on
+
+# Enable [I2C] DS3231 real time clock [RTC]
+#dtoverlay=i2c-rtc,ds3231
+
+# Enable [SPI] DS3234 real time clock [RTC]
+#dtoverlay=spi-rtc,ds3234
+
+# Automatically load initramfs files, if found
+auto_initramfs=1
+
+# Disable compensation for displays with overscan
+disable_overscan=1
+
+# Enable audio (loads snd_bcm2835)
+dtparam=audio=on
+
+# Automatically load overlays for detected cameras
+camera_auto_detect=1
+
+# Automatically load overlays for detected DSI displays
+display_auto_detect=1
+
+# Enable DRM VC4 V3D driver
+dtoverlay=vc4-kms-v3d-pi5
+max_framebuffers=2
+
+# Don't have the firmware create an initial video= setting in cmdline.txt.
+# Use the kernel's default instead.
+#disable_fw_kms_setup=1
+
+# Enable ttyS0 (UART1)
+#enable_uart=1
+
+# Disable on-board Bluetooth
+#dtoverlay=disable-bt
+
+# Disable on-board wireless
+#dtoverlay=disable-wifi
+dtoverlay=enable-wifi
+
+# Enable the PWR LED 'heartbeat' pulse
+#dtparam=pwr_led_trigger=heartbeat
+
+# Enable the ACT LED 'heartbeat' pulse
+#dtparam=act_led_trigger=heartbeat
+
+# Run as fast as firmware / board allows
+arm_boost=1
+
+[pi5]
+# Enable Pi 5 PCIe external connector
+#dtparam=pciex1
+#dtparam=nvme
+
+# Enable Pi 5 experimental PCIe Gen 3.0 mode
+#dtparam=pciex1_gen=3
+# Enable Pi 5 PCIe Gen 1.0 mode
+#dtparam=pciex1_gen=1
+
+# Disable Pi 5 onboard real time clock [RTC]
+#dtparam=rtc=off
+
+[cm4]
+# Enable host mode on the 2711 built-in XHCI USB controller.
+# This line should be removed if the legacy DWC2 controller is required
+# (e.g. for USB device mode) or if USB support is not required.
+otg_mode=1
+
+[pi4]
+# Raspberry Pi 4 specific configuration settings
+
+[all]
+

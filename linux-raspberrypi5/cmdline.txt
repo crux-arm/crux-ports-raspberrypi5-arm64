@@ -1,0 +1,1 @@
+dwc_otg.lpm_enable=0 cfg80211.ieee80211_regdom=US console=tty1 nofont root=/dev/sda1 fsck.repair=yes rootfstype=ext4 rootwait ro 
