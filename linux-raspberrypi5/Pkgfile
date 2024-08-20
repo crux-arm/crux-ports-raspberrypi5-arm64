@@ -4,7 +4,7 @@
 # Depends on: cpio dracut raspi-firmware
 
 name=linux-raspberrypi5
-version=6.6.35
+version=6.6.45
 release=1
 source=(https://github.com/mac-a-r0ni/linux/archive/v${version}/linux-$version.tar.gz
 	cmdline.txt config.txt)
