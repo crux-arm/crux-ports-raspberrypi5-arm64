@@ -29,12 +29,12 @@ f:1ebbd3e34237af26da5dc08a4e440464:LICENSE
 f:02f8d7a879af0cdedf06914ee9121f77:raspi-firmware/.md5sum
 f:b2f3d4447bd1aa141fa261d785962294:raspi-firmware/Pkgfile
 f:2c6aa75a816b955ad8eada833fbf5da5:raspi-firmware/.footprint
-f:78c00491e12766b758246ee77eef2634:linux-raspberrypi5/.md5sum
+f:537f3f855760a8ef9d4a0c56393d4b38:linux-raspberrypi5/.md5sum
 f:e73b51849c354be95a6e2a71d07dd514:linux-raspberrypi5/cmdline.txt
-f:6be83f74622a5702963d947e88fd1790:linux-raspberrypi5/post-install
-f:e7e5f5e311e68f0329c54e4b0697bcc4:linux-raspberrypi5/Pkgfile
+f:d3a8e446c4ff1e5a75d1fb5e3475d55f:linux-raspberrypi5/post-install
+f:3c8ddc56cd31ed9c6a2c4ace471fe56e:linux-raspberrypi5/Pkgfile
 f:c893e37e0c21563a8ec98fc01d05f450:linux-raspberrypi5/config.txt
-f:2bb1200d926fe0f47ac3c82d60ad5d84:linux-raspberrypi5/.footprint
+f:4fdddcc9b60667f682d859f10a274d64:linux-raspberrypi5/.footprint
 f:f62596053ec1dfa935c9925dacbd407a:prt-get/.signature
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
 f:fba3b19b1f9ef72c722360b8cfd73c3d:prt-get/Pkgfile
