@@ -12,6 +12,7 @@ drwxr-xr-x	root/root	boot/
 -rw-r--r--	root/root	boot/bcm2711-rpi-cm4.dtb
 -rw-r--r--	root/root	boot/bcm2711-rpi-cm4s.dtb
 -rw-r--r--	root/root	boot/bcm2712-rpi-5-b.dtb
+-rw-r--r--	root/root	boot/bcm2712-rpi-500.dtb
 -rw-r--r--	root/root	boot/bcm2712-rpi-cm5-cm4io.dtb
 -rw-r--r--	root/root	boot/bcm2712-rpi-cm5-cm5io.dtb
 -rw-r--r--	root/root	boot/bcm2712-rpi-cm5l-cm4io.dtb
@@ -110,6 +111,7 @@ drwxr-xr-x	root/root	boot/overlays/
 -rw-r--r--	root/root	boot/overlays/hd44780-lcd.dtbo
 -rw-r--r--	root/root	boot/overlays/hdmi-backlight-hwhack-gpio.dtbo
 -rw-r--r--	root/root	boot/overlays/hifiberry-adc.dtbo
+-rw-r--r--	root/root	boot/overlays/hifiberry-adc8x.dtbo
 -rw-r--r--	root/root	boot/overlays/hifiberry-amp.dtbo
 -rw-r--r--	root/root	boot/overlays/hifiberry-amp100.dtbo
 -rw-r--r--	root/root	boot/overlays/hifiberry-amp3.dtbo
@@ -160,6 +162,8 @@ drwxr-xr-x	root/root	boot/overlays/
 -rw-r--r--	root/root	boot/overlays/imx378.dtbo
 -rw-r--r--	root/root	boot/overlays/imx462.dtbo
 -rw-r--r--	root/root	boot/overlays/imx477.dtbo
+-rw-r--r--	root/root	boot/overlays/imx500-pi5.dtbo
+-rw-r--r--	root/root	boot/overlays/imx500.dtbo
 -rw-r--r--	root/root	boot/overlays/imx519.dtbo
 -rw-r--r--	root/root	boot/overlays/imx708.dtbo
 -rw-r--r--	root/root	boot/overlays/interludeaudio-analog.dtbo
@@ -225,7 +229,9 @@ drwxr-xr-x	root/root	boot/overlays/
 -rw-r--r--	root/root	boot/overlays/pifi-dac-zero.dtbo
 -rw-r--r--	root/root	boot/overlays/pifi-mini-210.dtbo
 -rw-r--r--	root/root	boot/overlays/piglow.dtbo
+-rw-r--r--	root/root	boot/overlays/pimidi.dtbo
 -rw-r--r--	root/root	boot/overlays/pineboards-hat-ai.dtbo
+-rw-r--r--	root/root	boot/overlays/pineboards-hatdrive-poe-plus.dtbo
 -rw-r--r--	root/root	boot/overlays/piscreen.dtbo
 -rw-r--r--	root/root	boot/overlays/piscreen2r.dtbo
 -rw-r--r--	root/root	boot/overlays/pisound-pi5.dtbo
@@ -237,7 +243,9 @@ drwxr-xr-x	root/root	boot/overlays/
 -rw-r--r--	root/root	boot/overlays/pps-gpio.dtbo
 -rw-r--r--	root/root	boot/overlays/proto-codec.dtbo
 -rw-r--r--	root/root	boot/overlays/pwm-2chan.dtbo
+-rw-r--r--	root/root	boot/overlays/pwm-gpio.dtbo
 -rw-r--r--	root/root	boot/overlays/pwm-ir-tx.dtbo
+-rw-r--r--	root/root	boot/overlays/pwm-pio.dtbo
 -rw-r--r--	root/root	boot/overlays/pwm.dtbo
 -rw-r--r--	root/root	boot/overlays/pwm1.dtbo
 -rw-r--r--	root/root	boot/overlays/qca7000-uart0.dtbo
@@ -277,6 +285,7 @@ drwxr-xr-x	root/root	boot/overlays/
 -rw-r--r--	root/root	boot/overlays/spi-gpio40-45.dtbo
 -rw-r--r--	root/root	boot/overlays/spi-rtc.dtbo
 -rw-r--r--	root/root	boot/overlays/spi0-0cs.dtbo
+-rw-r--r--	root/root	boot/overlays/spi0-1cs-inverted.dtbo
 -rw-r--r--	root/root	boot/overlays/spi0-1cs.dtbo
 -rw-r--r--	root/root	boot/overlays/spi0-2cs.dtbo
 -rw-r--r--	root/root	boot/overlays/spi1-1cs.dtbo
@@ -340,6 +349,7 @@ drwxr-xr-x	root/root	boot/overlays/
 -rw-r--r--	root/root	boot/overlays/vc4-kms-dsi-ili9881-7inch.dtbo
 -rw-r--r--	root/root	boot/overlays/vc4-kms-dsi-lt070me05000-v2.dtbo
 -rw-r--r--	root/root	boot/overlays/vc4-kms-dsi-lt070me05000.dtbo
+-rw-r--r--	root/root	boot/overlays/vc4-kms-dsi-waveshare-800x480.dtbo
 -rw-r--r--	root/root	boot/overlays/vc4-kms-dsi-waveshare-panel.dtbo
 -rw-r--r--	root/root	boot/overlays/vc4-kms-kippah-7inch.dtbo
 -rw-r--r--	root/root	boot/overlays/vc4-kms-v3d-pi4.dtbo
@@ -508,6 +518,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/connector/
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/firmware/
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/firmware/cirrus/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/firmware/cirrus/cs_dsp.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/firmware/rp1.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/gpio/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpio/gpio-arizona.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpio/gpio-fsm.ko.xz
@@ -751,7 +762,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/input/joystick/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/joystick/iforce/iforce-usb.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/joystick/iforce/iforce.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/joystick/psxpad-spi.ko.xz
--rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/joystick/rpisense-js.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/joystick/sensehat-joystick.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/joystick/xpad.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/input/keyboard/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/keyboard/cap11xx.ko.xz
@@ -802,6 +813,8 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/leds/trigger/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/leds/trigger/ledtrig-netdev.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/leds/trigger/ledtrig-pattern.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/leds/trigger/ledtrig-transient.ko.xz
+drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/mailbox/
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/mailbox/rp1-mailbox.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/md/
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/md/bcache/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/md/bcache/bcache.ko.xz
@@ -822,6 +835,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/md/bcache/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/md/dm-round-robin.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/md/dm-snapshot.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/md/dm-thin-pool.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/md/dm-verity.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/md/dm-writecache.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/md/dm-zero.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/md/linear.ko.xz
@@ -994,6 +1008,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/media/i2c/cx258
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/media/i2c/imx290.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/media/i2c/imx296.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/media/i2c/imx477.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/media/i2c/imx500.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/media/i2c/imx519.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/media/i2c/imx708.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/media/i2c/ir-kbd-i2c.ko.xz
@@ -1269,7 +1284,6 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/mfd/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/mfd/arizona-i2c.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/mfd/arizona-spi.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/mfd/arizona.ko.xz
--rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/mfd/rpisense-core.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/mfd/simple-mfd-i2c.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/mfd/wl1273-core.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/misc/
@@ -1278,6 +1292,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/misc/eeprom/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/misc/eeprom/at24.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/misc/eeprom/at25.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/misc/eeprom/eeprom_93cx6.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/misc/rp1-pio.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/misc/ti-st/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/misc/ti-st/st_drv.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/mmc/
@@ -1345,6 +1360,8 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/net/ethernet/qu
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/ethernet/qualcomm/qcauart.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/net/ethernet/realtek/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/ethernet/realtek/r8169.ko.xz
+drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/net/ethernet/vertexcom/
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/ethernet/vertexcom/mse102x.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/net/ethernet/wiznet/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/ethernet/wiznet/w5100-spi.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/ethernet/wiznet/w5100.ko.xz
@@ -1557,7 +1574,9 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/pps/clients/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/pps/clients/pps-ldisc.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/pwm/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/pwm/pwm-bcm2835.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/pwm/pwm-gpio.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/pwm/pwm-pca9685.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/pwm/pwm-pio-rp1.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/pwm/pwm-raspberrypi-poe.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/regulator/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/regulator/arizona-ldo1.ko.xz
@@ -1618,6 +1637,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/spi/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/spi/spi-dw-mmio.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/spi/spi-dw.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/spi/spi-gpio.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/spi/spi-rp2040-gpio-bridge.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/spi/spidev.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/ssb/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/ssb/ssb.ko.xz
@@ -1766,6 +1786,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/digi_acceleport.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/empeg.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/f81232.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/f81534.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/ftdi_sio.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/garmin_gps.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/io_edgeport.ko.xz
@@ -1782,6 +1803,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/metro-usb.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/mos7720.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/mos7840.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/mxuport.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/navman.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/omninet.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/opticon.ko.xz
@@ -1797,12 +1819,15 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/ssu100.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/symbolserial.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/ti_usb_3410_5052.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/upd78f0730.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/usb-serial-simple.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/usb_debug.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/usb_wwan.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/usbserial.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/visor.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/whiteheat.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/wishbone-serial.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/xr_serial.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/serial/xsens_mt.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/storage/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/usb/storage/ums-alauda.ko.xz
@@ -2003,7 +2028,6 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/lib/raid6/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/lib/ts_fsm.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/lib/ts_kmp.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/mm/
--rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/mm/z3fold.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/mm/zsmalloc.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/net/
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/net/6lowpan/
@@ -2451,6 +2475,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/sound/drivers/mpu401/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/sound/drivers/snd-aloop.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/sound/drivers/snd-dummy.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/sound/drivers/snd-mtpav.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/sound/drivers/snd-pimidi.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/sound/drivers/snd-serial-u16550.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/sound/drivers/snd-virmidi.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/sound/soc/

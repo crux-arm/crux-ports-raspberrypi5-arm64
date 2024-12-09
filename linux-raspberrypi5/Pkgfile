@@ -1,10 +1,10 @@
 # Description: RPI kernel defconfig_2712
 # URL: https://github.com/raspberrypi/linux
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: cpio dracut raspi-firmware
 
 name=linux-raspberrypi5
-version=6.6.47
+version=6.6.63
 release=1
 source=(https://github.com/mac-a-r0ni/linux/archive/v${version}/linux-$version.tar.gz
 	cmdline.txt config.txt)
@@ -13,6 +13,7 @@ PKGMK_NO_STRIP="yes"
 _portdir=$PWD
 
 build() {
+
 	cd linux-$version
 
 	make mrproper
@@ -34,6 +35,5 @@ build() {
 	cp arch/arm64/boot/dts/broadcom/*.dtb $PKG/boot
 	cp arch/arm64/boot/dts/overlays/*.dtb* $PKG/boot/overlays
 	rm $PKG/lib/modules/$version-CRUX/build
-#	ln -s /lib/modules/$version-CRUX/build /usr/src/linux-$version
-#	ln -s /lib/modules/$version-CRUX/source /usr/src/linux-$version
+
 }
