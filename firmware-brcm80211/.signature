@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/raspberrypi5-arm64.pub
+RWSHgCHzkLZhnsI10CKBWZ5ncNtMIS3C75gdM+wrsCimJRPOkUhWZSwAESzR6pS7RpBA+nk70u0mjnZ8uGLc5PWMx5NKj1XD8g4=
+SHA256 (Pkgfile) = 865d1d47a59916a1687de755e56623e43a6d99a9fc2fbe0826ba4b69679e75f1
+SHA256 (.footprint) = 393f167a9f27c3e99a9cdff59fb8bbd0d0da4fed059882294282842f9c3189a9
+SHA256 (firmware-brcm80211_20230625-2+rpt2_all.deb) = baeb9c15aa422c6cbb9ca24326b350c15a9d9a852d92031ec9744f4c05c15995
