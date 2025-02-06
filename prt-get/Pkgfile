@@ -1,5 +1,5 @@
 # Description: A utility to simplify ports searching/installing
-# URL: http://jw.smts.ch/files/crux/prt-get_quickstart.html
+# URL: https://git.crux.nu/tools/prt-get
 # Maintainer: CRUX System Team, core-ports at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on:
@@ -8,16 +8,16 @@ name=prt-get
 version=5.19.6
 release=1
 source=(http://crux.nu/files/prt-get-$version.tar.xz
-        prt-get.conf prt-get.aliases)
+    prt-get.conf prt-get.aliases)
 
 build() {
-  cd ${name}-${version}
+    cd ${name}-${version}
 
-  ./configure --prefix=/usr
-  make
-  make DESTDIR=$PKG install
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
 
-  install -m 644 $SRC/prt-get.{conf,aliases} $PKG/etc/
-  install -d $PKG/var/lib/pkg
-  touch $PKG/var/lib/pkg/prt-get.locker
+    install -m 644 $SRC/prt-get.{conf,aliases} $PKG/etc/
+    install -d $PKG/var/lib/pkg
+    touch $PKG/var/lib/pkg/prt-get.locker
 }
