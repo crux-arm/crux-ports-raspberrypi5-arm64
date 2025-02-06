@@ -6,20 +6,19 @@
 name=bluez-firmware
 version=1.2-9
 release=3
-source=(https://archive.raspberrypi.org/debian/pool/main/b/$name/${name}_${version}+rpt${release}_all.deb BCM-LEGAL.txt)
+source=(https://archive.raspberrypi.org/debian/pool/main/b/$name/${name}_${version}+rpt${release}_all.deb
+  copyright BCM-LEGAL.txt)
 
 build() {
-
-ar x ${name}_${version}+rpt${release}_all.deb data.tar.xz
-tar xvf data.tar.xz
-rm data.tar.xz
-
-cd $SRC
-rm *.deb
-cp -r . $PKG
-
-rm $PKG/BCM-LEGAL.txt
-rm -r $PKG/usr/*
-rmdir $PKG/usr
-
+    ar x ${name}_${version}+rpt${release}_all.deb data.tar.xz
+    tar xvf data.tar.xz
+    rm data.tar.xz
+    
+    cd $SRC
+    rm *.deb
+    cp -r . $PKG
+    
+    rm $PKG/BCM-LEGAL.txt $PKG/copyright
+    rm -r $PKG/usr/*
+    rmdir $PKG/usr
 }
