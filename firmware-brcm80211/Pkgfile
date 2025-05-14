@@ -4,21 +4,21 @@
 # Depends on:
 
 name=firmware-brcm80211
-version=20230625-2
+version=20241210-1
 release=2
 source=(https://archive.raspberrypi.org/debian/pool/main/f/firmware-nonfree/${name}_${version}+rpt${release}_all.deb)
 
 build() {
 
-ar x ${name}_${version}+rpt${release}_all.deb data.tar.xz
-tar xvf data.tar.xz
-rm data.tar.xz
+ar x ${name}_${version}+rpt${release}_all.deb data.tar.gz
+tar xf data.tar.gz
+rm data.tar.gz
 
-cd $SRC
+cd $SRC/usr
+mv lib ../
+rm -r $SRC/usr
+cd ..
 rm *.deb
 cp -r . $PKG
-
-rm -r $PKG/usr/*
-rmdir $PKG/usr
 
 }
