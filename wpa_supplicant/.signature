@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/raspberrypi5-arm64.pub
+RWSHgCHzkLZhnvHDL6HngHqDclxpo8GCIHzAaID9p7ReYwX4MAYUb4KnyxIYn5aha5aOL2QUIVYXIahR5iaWWXe0AqL9SxQiBAs=
+SHA256 (Pkgfile) = 7aa2e370270b83615941e9d5820256a58d41403f6a9bd2ddc7946c93d0b35bbc
+SHA256 (.footprint) = c601da7d8f0118f98fe747611466a530d48519832c8aba47db01df055d64f869
+SHA256 (wpa_supplicant-2.11.tar.gz) = 912ea06f74e30a8e36fbb68064d6cdff218d8d591db0fc5d75dee6c81ac7fc0a
+SHA256 (wpa_supplicant) = 5257d99555bb189f6e509c1779ffe85447de77f0bcd5f14495892cb53a0167f2
+SHA256 (wlan) = c025ad557806d86ef231770c8a77a02a0194d92d89b5fb16bec036eddbc5d308
+SHA256 (allow-tlsv1.patch) = f96a903e40dad2450ae9199f2f5348f9bc00ed1eb7e63d1ccf1913f16842a98c
+SHA256 (0007-nl80211-add-extra-ies-only-if-allowed-by-driver.patch) = 12f9e3177b6fbe390eda5c97a41768e8c9474ec4b66d9c7a5c5939d993029f97
