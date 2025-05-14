@@ -39,7 +39,7 @@ f:543529c399eb3070a574f88db1824bf0:prt-get/prt-get.conf
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
 f:ce4fad013f3054c2285d2d160b0d5fdc:.httpup-urlinfo
 f:1ebbd3e34237af26da5dc08a4e440464:LICENSE
-f:c8f27fa6ab08dc82821a6035ee29049b:xorg/.md5sum
+f:0e4c50734642576bcc9cc948f9ec2d0b:xorg/.signature
 f:bdf9c2b1faa77c0e96ad405cc9862242:xorg/Pkgfile
 f:cb341af4428c3087f2f199ad6d1bfe7c:xorg/99-vc4.conf
 f:0409366834f08e177397976f21465989:xorg/.footprint
@@ -49,6 +49,7 @@ f:2c6aa75a816b955ad8eada833fbf5da5:raspi-firmware/.footprint
 f:d32239bcb673463ab874e80d47fae504:COPYING
 f:680f8c14d13a0045776ccca3e9fcd1e5:bluez-firmware/copyright
 f:ebd69c12bde8d2bb4a76c7140e57b80c:bluez-firmware/BCM-LEGAL.txt
+f:cbaad4575b4f580c90272119de4857bb:bluez-firmware/.signature
 f:4820d3bd2f97061caf3d8aa35e3d7306:bluez-firmware/Pkgfile
 f:8285d5aefab8594094d7d07461ef1d9e:bluez-firmware/.footprint
 f:780783ff3f3ea49c96fd7f32e39904bf:pkgutils/.signature
