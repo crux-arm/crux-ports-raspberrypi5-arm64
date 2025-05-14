@@ -43,9 +43,9 @@ f:0e4c50734642576bcc9cc948f9ec2d0b:xorg/.signature
 f:bdf9c2b1faa77c0e96ad405cc9862242:xorg/Pkgfile
 f:cb341af4428c3087f2f199ad6d1bfe7c:xorg/99-vc4.conf
 f:0409366834f08e177397976f21465989:xorg/.footprint
-f:9c8f72809b275bc802766f09088db1a9:raspi-firmware/.signature
-f:b2f3d4447bd1aa141fa261d785962294:raspi-firmware/Pkgfile
-f:2c6aa75a816b955ad8eada833fbf5da5:raspi-firmware/.footprint
+f:7ee924e73ebaf3bbc8bb1ea7605f2c09:raspi-firmware/.signature
+f:70d17bb70f51c14e900e8ce32304f00d:raspi-firmware/Pkgfile
+f:0baccf19dad060162ce7904881fa26cb:raspi-firmware/.footprint
 f:d32239bcb673463ab874e80d47fae504:COPYING
 f:680f8c14d13a0045776ccca3e9fcd1e5:bluez-firmware/copyright
 f:ebd69c12bde8d2bb4a76c7140e57b80c:bluez-firmware/BCM-LEGAL.txt
@@ -56,8 +56,8 @@ f:780783ff3f3ea49c96fd7f32e39904bf:pkgutils/.signature
 f:37ad0d886c0e2cbe12f63b02c508829d:pkgutils/pkgmk.conf
 f:b3ffc80235a7972eac523127b60954e5:pkgutils/Pkgfile
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
-f:2a393cdb722c6f663e30d8e5004f8a9b:firmware-brcm80211/.signature
-f:6313a9475d01ddbaee7680b733e93bbc:firmware-brcm80211/Pkgfile
-f:9e0650fa992c34965fc1e90289a9b1b0:firmware-brcm80211/.footprint
+f:b65dd3cf32f2264fa209343bb911747a:firmware-brcm80211/.signature
+f:a95bfdccfe0d71b91c8de1c5d2bd39b6:firmware-brcm80211/Pkgfile
+f:9d523d74d3ee8ebad9c526d072eb770b:firmware-brcm80211/.footprint
 f:8fd38bb57988629179ded057903160d5:.httpup-repo.current
 f:9d65d950bc9ccaba3f9b4ffbe1d90f0a:raspberrypi5-arm64.httpup
