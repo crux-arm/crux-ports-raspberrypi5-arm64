@@ -4,14 +4,14 @@
 # Depends on:
 
 name=raspi-firmware
-version=1.20240529
+version=1.20250430
 release=1
 source=(http://archive.raspberrypi.org/debian/pool/main/r/$name/${name}_${version}-${release}_all.deb)
 
 build() {
 
-    ar x ${name}_${version}-${release}_all.deb data.tar.xz
-    tar xvf $SRC/data.tar.xz -C $PKG
+    ar x ${name}_${version}-${release}_all.deb data.tar.gz
+    tar xvf $SRC/data.tar.gz -C $PKG
     rm -rf $PKG/etc
     mkdir -p $PKG/boot
     mv $PKG/usr/lib/raspi-firmware/* $PKG/boot

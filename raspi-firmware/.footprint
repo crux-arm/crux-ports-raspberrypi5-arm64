@@ -9,11 +9,11 @@ drwxr-xr-x	root/root	boot/
 -rw-r--r--	root/root	boot/fixup_cd.dat
 -rw-r--r--	root/root	boot/fixup_db.dat
 -rw-r--r--	root/root	boot/fixup_x.dat
--rw-r--r--	root/root	boot/start.elf
+-rwxr-xr-x	root/root	boot/start.elf
 -rw-r--r--	root/root	boot/start4.elf
 -rw-r--r--	root/root	boot/start4cd.elf
 -rw-r--r--	root/root	boot/start4db.elf
 -rw-r--r--	root/root	boot/start4x.elf
--rw-r--r--	root/root	boot/start_cd.elf
--rw-r--r--	root/root	boot/start_db.elf
--rw-r--r--	root/root	boot/start_x.elf
+-rwxr-xr-x	root/root	boot/start_cd.elf
+-rwxr-xr-x	root/root	boot/start_db.elf
+-rwxr-xr-x	root/root	boot/start_x.elf
