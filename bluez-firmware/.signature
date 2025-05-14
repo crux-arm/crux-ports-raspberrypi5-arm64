@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/raspberrypi5-arm64.pub
+RWSHgCHzkLZhnjSTxh8eeT0LHKBvSv95khaQ43SU2s9jCzOamUPxShbyfuogBVpgIpXS44z1e6tqMIM8fEfhKlISFAzR+6g1ZQM=
+SHA256 (Pkgfile) = 6480b4cd7379f52499eabec991467d364b83c6ec289005af249c6dfc01548fe2
+SHA256 (.footprint) = f6c4896f52ae97863233f1c806d4a871aedad260e38b20248280dd08e98c983d
+SHA256 (bluez-firmware_1.2-9+rpt3_all.deb) = 88714ad5c8597f688084cc11c0a30c980e5d5f923a1eb069fa9e43ab1435fa2d
+SHA256 (copyright) = 79576e5ea6740845bf71ce96ad4e31cd49797c8e1a259d64670f48554b8eb67c
+SHA256 (BCM-LEGAL.txt) = 092aaac7a0743f6e98ef224dfd68cac7554aa267581121fadcace8599b7d29dd
