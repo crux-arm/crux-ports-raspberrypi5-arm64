@@ -4,6 +4,7 @@ d:prt-get
 d:xorg
 d:raspi-firmware
 d:bluez-firmware
+d:wpa_supplicant
 d:pkgutils
 d:firmware-brcm80211
 f:ca48d999d654de889c4cbb23fb34f934:linux-raspberrypi5/post-install
@@ -52,6 +53,14 @@ f:ebd69c12bde8d2bb4a76c7140e57b80c:bluez-firmware/BCM-LEGAL.txt
 f:cbaad4575b4f580c90272119de4857bb:bluez-firmware/.signature
 f:4820d3bd2f97061caf3d8aa35e3d7306:bluez-firmware/Pkgfile
 f:8285d5aefab8594094d7d07461ef1d9e:bluez-firmware/.footprint
+f:24ccdb85e4070711a75bdc19368ebfcf:wpa_supplicant/.signature
+f:bfff8b94ddc260e7aa05cf8eefef6b17:wpa_supplicant/allow-tlsv1.patch
+f:5d892fffe74b1b7a3d7ec253364d190e:wpa_supplicant/0007-nl80211-add-extra-ies-only-if-allowed-by-driver.patch
+f:94eda9e510358f6fc9e6033048cc05de:wpa_supplicant/README
+f:5b505ff68474564b9eb44b04445ba730:wpa_supplicant/wpa_supplicant
+f:a804f8c2828b929446a928d02be98018:wpa_supplicant/wlan
+f:51623e22a31e54a5b3ce202abed0522e:wpa_supplicant/Pkgfile
+f:f63c7f588bcc7afaf59e500464b7ccdb:wpa_supplicant/.footprint
 f:780783ff3f3ea49c96fd7f32e39904bf:pkgutils/.signature
 f:37ad0d886c0e2cbe12f63b02c508829d:pkgutils/pkgmk.conf
 f:b3ffc80235a7972eac523127b60954e5:pkgutils/Pkgfile
