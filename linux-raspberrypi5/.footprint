@@ -697,6 +697,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/hwmon/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/hwmon/ina2xx.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/hwmon/jc42.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/hwmon/lm75.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/hwmon/powerz.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/hwmon/pwm-fan.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/hwmon/raspberrypi-hwmon.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/hwmon/rp1-adc.ko.xz
