@@ -57,11 +57,11 @@ f:0e4c50734642576bcc9cc948f9ec2d0b:xorg/.signature
 f:9d523d74d3ee8ebad9c526d072eb770b:firmware-brcm80211/.footprint
 f:a95bfdccfe0d71b91c8de1c5d2bd39b6:firmware-brcm80211/Pkgfile
 f:b65dd3cf32f2264fa209343bb911747a:firmware-brcm80211/.signature
-f:67e273b228572aa8d59da6ade7af10c5:linux-raspberrypi5/.footprint
+f:c5bad3ee5cf7711acfdd1cb3f0e6d398:linux-raspberrypi5/.footprint
 f:c893e37e0c21563a8ec98fc01d05f450:linux-raspberrypi5/config.txt
-f:36ea556365031af3cc903757e42e1eb7:linux-raspberrypi5/post-install
-f:02cccaff727a75f9c7a151e8623a383c:linux-raspberrypi5/Pkgfile
-f:5129927eb027dc7b5110fe2121acb3f0:linux-raspberrypi5/.signature
+f:d5ce783fa046f650e285da24b76ffc0f:linux-raspberrypi5/post-install
+f:138a2bacf4d962cf08fc75f002a48ce0:linux-raspberrypi5/Pkgfile
+f:6b2dd9256953246896ac03ac4decaa0e:linux-raspberrypi5/.signature
 f:e73b51849c354be95a6e2a71d07dd514:linux-raspberrypi5/cmdline.txt
 f:1ebbd3e34237af26da5dc08a4e440464:LICENSE
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
