@@ -507,6 +507,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/bluetooth/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/bluetooth/btintel.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/bluetooth/btmrvl.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/bluetooth/btmrvl_sdio.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/bluetooth/btmtk.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/bluetooth/btrtl.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/bluetooth/btusb.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/bluetooth/hci_uart.ko.xz
@@ -1562,6 +1563,9 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/me
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/mediatek/mt76/mt7921/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921-common.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko.xz
+drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/mediatek/mt76/mt7925/
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/mediatek/mt76/mt7925/mt7925-common.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/mediatek/mt76/mt7925/mt7925u.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/mediatek/mt76/mt792x-lib.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/mediatek/mt76/mt792x-usb.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/net/wireless/mediatek/mt7601u/
