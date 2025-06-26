@@ -24,7 +24,7 @@ f:51623e22a31e54a5b3ce202abed0522e:wpa_supplicant/Pkgfile
 f:a804f8c2828b929446a928d02be98018:wpa_supplicant/wlan
 f:543529c399eb3070a574f88db1824bf0:prt-get/prt-get.conf
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
-f:f62596053ec1dfa935c9925dacbd407a:prt-get/.signature
+f:b66a4a2d4891b4ca6ead8310633aee65:prt-get/.signature
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
 f:4f6b710e4d2b18c70cfe5e4a593938b7:prt-get/prt-get.aliases
 f:67545ba10681bce02702dbdcd605817f:prt-get/Pkgfile
