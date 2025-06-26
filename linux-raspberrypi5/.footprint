@@ -2188,6 +2188,8 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/net/ceph/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/ceph/libceph.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/net/core/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/core/pktgen.ko.xz
+drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/net/dsa/
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/dsa/dsa_core.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/net/ieee802154/
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/net/ieee802154/6lowpan/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/ieee802154/6lowpan/ieee802154_6lowpan.ko.xz

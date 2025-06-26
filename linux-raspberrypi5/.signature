@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/raspberrypi5-arm64.pub
-RWSHgCHzkLZhniVcVHKqqFJ6aByThJ5Xo8VWyLFkY94FazASIAt7u9P86KJqnHY/s4QBW62WozGery5LTrQqUsvJjkooqqsJ1g0=
-SHA256 (Pkgfile) = 60ec9935f6680b9c04b8fdecabb09ba84196fa3683e7f8755c85576a5947a344
-SHA256 (.footprint) = fb71d775473fb4cba0bdfb26402cf3cee54727dbd1afcdba30018ec18496a9f8
-SHA256 (linux-6.12.33.tar.gz) = af0c52a037880fbef24cb55de9f5c14fafc0cfa66773434d26249bfb4614057b
+RWSHgCHzkLZhnrPANyTOhQpeo1LQqaZKiYvcpFaNLsTMZI7DpM40nRqRzY2rL91K99HzYd+fsx3xsJT3qf97hgDwr7rtemxUfAU=
+SHA256 (Pkgfile) = 6f8e6abd937040140b997badc6693d8f43a6a0d2f3dd8377048daae0f4534fd8
+SHA256 (.footprint) = 737e7076c076e74b4887f26d29cfca4119ec25d1eb78b7cd50ae81eaf2db666f
+SHA256 (linux-6.12.34.tar.gz) = 8995205f35f7f1038b0772901e3955991030212d9bfb48b2c9bfd04f4f379bfb
 SHA256 (cmdline.txt) = 0a9a03f4d04d80562d5e5d840818ba9c1e3b671f2751d4928ee0c01dc93a02ef
 SHA256 (config.txt) = 805759de230e258e34323f94b17857ce1e443f825704c6d32b11de8febb7e6a9
