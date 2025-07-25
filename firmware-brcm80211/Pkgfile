@@ -1,23 +1,22 @@
 # Description: Proprietary Broadcom WiFi Firmware for RPI devices
 # URL: https://raspberrypi.org
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on:
 
 name=firmware-brcm80211
-version=20241210-1
-release=2
-source=(https://archive.raspberrypi.org/debian/pool/main/f/firmware-nonfree/${name}_${version}+rpt${release}_all.deb)
+version=20240709
+release=3
+source=(https://archive.raspberrypi.org/debian/pool/main/f/firmware-nonfree/${name}_${version}-2~bpo12+1+rpt${release}_all.deb)
 
 build() {
 
-ar x ${name}_${version}+rpt${release}_all.deb data.tar.gz
-tar xf data.tar.gz
-rm data.tar.gz
+ar x ${name}_${version}-2~bpo12+1+rpt${release}_all.deb data.tar.xz
+tar xf data.tar.xz
+rm data.tar.xz
 
-cd $SRC/usr
-mv lib ../
 rm -r $SRC/usr
-cd ..
+mkdir -p $PKG/etc
+mv $SRC/lib/modprobe.d $PKG/etc
 rm *.deb
 cp -r . $PKG
 
