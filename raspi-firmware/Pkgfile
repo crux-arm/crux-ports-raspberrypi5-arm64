@@ -5,7 +5,7 @@
 
 name=raspi-firmware
 version=1.20250430
-release=1
+release=4
 source=(http://archive.raspberrypi.org/debian/pool/main/r/$name/${name}_${version}-${release}_all.deb)
 
 build() {
