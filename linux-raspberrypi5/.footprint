@@ -250,6 +250,7 @@ drwxr-xr-x	root/root	boot/overlays/
 -rw-r--r--	root/root	boot/overlays/pitft28-capacitive.dtbo
 -rw-r--r--	root/root	boot/overlays/pitft28-resistive.dtbo
 -rw-r--r--	root/root	boot/overlays/pitft35-resistive.dtbo
+-rw-r--r--	root/root	boot/overlays/pivision.dtbo
 -rw-r--r--	root/root	boot/overlays/pps-gpio.dtbo
 -rw-r--r--	root/root	boot/overlays/proto-codec.dtbo
 -rw-r--r--	root/root	boot/overlays/pwm-2chan.dtbo
@@ -554,6 +555,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/bridge/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/bridge/display-connector.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/bridge/simple-bridge.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/bridge/tc358762.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/bridge/ti-sn65dsi83.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/display/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/display/drm_display_helper.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/drm.ko.xz
@@ -571,6 +573,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/panel/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/panel/panel-ilitek-ili9806e.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/panel/panel-ilitek-ili9881c.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/panel/panel-jdi-lt070me05000.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/panel/panel-lvds.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/panel/panel-raspberrypi-touchscreen.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/panel/panel-simple.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/gpu/drm/panel/panel-sitronix-st7701.ko.xz
@@ -830,6 +833,7 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/input/serio/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/serio/serport.ko.xz
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/drivers/input/touchscreen/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/touchscreen/ads7846.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/touchscreen/atmel_mxt_ts.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/touchscreen/edt-ft5x06.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/touchscreen/egalax_ts.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/drivers/input/touchscreen/exc3000.ko.xz
@@ -2481,7 +2485,9 @@ drwxr-xr-x	root/root	lib/modules/<kernel-version>/kernel/net/sched/
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/sched/cls_basic.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/sched/cls_cgroup.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/sched/cls_flow.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/sched/cls_flower.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/sched/cls_fw.ko.xz
+-rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/sched/cls_matchall.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/sched/cls_route.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/sched/cls_u32.ko.xz
 -rw-r--r--	root/root	lib/modules/<kernel-version>/kernel/net/sched/em_cmp.ko.xz
