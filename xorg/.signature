@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/raspberrypi5-arm64.pub
-RWSHgCHzkLZhngfvol0PB4f71+om5munyMdILr7yKHxoEAFoIDmf2dGpb8ABwA77gnk2z7UMpL8OISuRlgub/9sv6v1okJx+mAA=
-SHA256 (Pkgfile) = 9293b7745579a55090d70ca9423c37b67f5559903da34c3de689f66ba5af47e5
+RWSHgCHzkLZhnloeqAKK7/VuuxQH+Hk5LHLq1vwoZfEaHdlH9Dj0TPxtuTPr8e/tjglbR5ngr8CH01YzZcuqrDFtgZG1bL/lFAY=
+SHA256 (Pkgfile) = b11854cda16a8bf67b879fe73f73dba03c50308a960fbe6031ff11394ae5ade9
 SHA256 (.footprint) = be471dec247c41b5451e040a9550314e0a68bf653a5ceb866a29a9b42e20d026
 SHA256 (99-vc4.conf) = 86dda2abb8315ff09346eec5f621f5a11ab41ef7cefda3cb7431d3a932f835cc
