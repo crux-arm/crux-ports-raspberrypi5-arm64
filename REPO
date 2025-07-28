@@ -35,10 +35,10 @@ f:d86394a5f34e40767a6f3be86f0e3a63:firmware-brcm80211/.footprint
 f:a52bf31c4396c10da4437a2ba4f9e5e6:firmware-brcm80211/Pkgfile
 f:645429678ef79e91e45eaa8dbe1ce10b:firmware-brcm80211/.signature
 f:1ebbd3e34237af26da5dc08a4e440464:LICENSE
-f:0409366834f08e177397976f21465989:xorg/.footprint
+f:87c78059f6895077bfaa043db315562d:xorg/.footprint
 f:cb341af4428c3087f2f199ad6d1bfe7c:xorg/99-vc4.conf
-f:a91161d9863662c496f33f8eb702c18e:xorg/Pkgfile
-f:c973a8a89ae7a40bbf77ccbdf1b77227:xorg/.signature
+f:ecc656c169e9ceba22b9358b64847306:xorg/Pkgfile
+f:0ee7418be66b877fcdb47e77d5500fe5:xorg/.signature
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
 f:67545ba10681bce02702dbdcd605817f:prt-get/Pkgfile
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
