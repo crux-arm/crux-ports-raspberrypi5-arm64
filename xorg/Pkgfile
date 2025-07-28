@@ -5,12 +5,12 @@
 
 name=xorg
 version=7.7
-release=3
+release=4
 source=(99-vc4.conf)
 
 build() {
     # this file enables X11 to use rpi5 gpu
-    install -Dm0644 -t $PKG/etc/X11/xorg.conf.d/99-vc4.conf $source
+    install -Dm0644 -t $PKG/etc/X11/xorg.conf.d $source
 
     install -d $PKG/usr/etc
     echo "$name version $version" > $PKG/usr/etc/$name
