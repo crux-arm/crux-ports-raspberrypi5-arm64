@@ -25,9 +25,9 @@ f:24ccdb85e4070711a75bdc19368ebfcf:wpa_supplicant/.signature
 f:bfff8b94ddc260e7aa05cf8eefef6b17:wpa_supplicant/allow-tlsv1.patch
 f:0625eeef1dfde417c22fcad52e256430:linux-raspberrypi5/cmdline.txt
 f:f1249df4e0718a7debb6a16e0c1b8096:linux-raspberrypi5/.footprint
-f:581b1cf1bb3aa78737b557c0df6a33ec:linux-raspberrypi5/post-install
-f:a1ff46e6e3e838a1ebe1ff0c13b2bbfa:linux-raspberrypi5/Pkgfile
-f:8162bf017e2c83d4149e705261835917:linux-raspberrypi5/.signature
+f:3706c2e511335b38f522ccf125f5d2f9:linux-raspberrypi5/post-install
+f:19488fa3a5163c50844d805f46a6d840:linux-raspberrypi5/Pkgfile
+f:cc7df17e9f531ca0b83dc4b869843b4b:linux-raspberrypi5/.signature
 f:c893e37e0c21563a8ec98fc01d05f450:linux-raspberrypi5/config.txt
 f:9d65d950bc9ccaba3f9b4ffbe1d90f0a:raspberrypi5-arm64.httpup
 f:d32239bcb673463ab874e80d47fae504:COPYING
