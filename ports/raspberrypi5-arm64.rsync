@@ -1,0 +1,4 @@
+host=crux.nu
+collection=crux-arm/raspberrypi5-arm64/3.8/
+destination=/usr/ports/raspberrypi5-arm64
+
