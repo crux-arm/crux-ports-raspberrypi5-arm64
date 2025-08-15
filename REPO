@@ -21,7 +21,6 @@ f:780783ff3f3ea49c96fd7f32e39904bf:pkgutils/.signature
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:37ad0d886c0e2cbe12f63b02c508829d:pkgutils/pkgmk.conf
 f:b3ffc80235a7972eac523127b60954e5:pkgutils/Pkgfile
-f:9d65d950bc9ccaba3f9b4ffbe1d90f0a:raspberrypi5-arm64.httpup
 f:018a0b78f1c6a8b3aa99418d006d8cdd:ports/opt-arm64.rsync
 f:1c52a4d18e7f8a3ea4d3123021fedbc8:ports/xorg-arm64.rsync
 f:b8dd0aad383810cad920d6548cd1cb56:ports/core.pub
@@ -68,3 +67,4 @@ f:543529c399eb3070a574f88db1824bf0:prt-get/prt-get.conf
 f:67545ba10681bce02702dbdcd605817f:prt-get/Pkgfile
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
 f:d32239bcb673463ab874e80d47fae504:COPYING
+f:7ba2391457200627e877f4da3e33613e:raspberrypi5-arm64.rsync
