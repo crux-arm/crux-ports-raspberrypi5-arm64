@@ -1,10 +1,10 @@
-# crux-ports-raspberrypi5-arm64
+# raspberrypi5-arm64
 
 CRUX-ARM aarch64 ports overlay for RaspberryPi 5
 
-To use these ports, download the `raspberrypi5-arm64.httpup` file to `/etc/ports`:
+To use these ports, download the `raspberrypi5-arm64.rsync` file to `/etc/ports`:
 ```
-$ sudo wget -P /etc/ports https://raw.githubusercontent.com/crux-arm/crux-ports-raspberrypi5-arm64/3.8/raspberrypi5-arm64.httpup
+$ sudo wget -P /etc/ports https://git.crux.nu/crux-arm/raspberrypi5-arm64/raw/branch/3.8/raspberrypi5-arm64.rsync
 $ sudo ports -u raspberrypi5-arm64
 ```
 
